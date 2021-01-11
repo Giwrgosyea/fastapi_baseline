@@ -1,5 +1,5 @@
 from functools import wraps
-from mongoengine import connect, disconnect
+from motor import connect, disconnect
 from ...config import get_settings
 
 settings = get_settings()

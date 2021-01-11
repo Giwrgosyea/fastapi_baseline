@@ -2,7 +2,7 @@ from ...log.logger import Logger
 
 # from motor.motor_asyncio import AsyncIOMotorClient
 from ...config import get_settings
-from mongoengine import connect, disconnect
+from motor import connect, disconnect
 
 # Function to connect in db
 

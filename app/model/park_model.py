@@ -1,5 +1,5 @@
-from mongoengine.document import Document
-from mongoengine.fields import StringField
+from motor.document import Document
+from motor.fields import StringField
 
 
 class Park(Document):

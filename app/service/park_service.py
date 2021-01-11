@@ -1,6 +1,6 @@
 from ..util.db.decorator import mongodb_access
 from ..model.park_model import Park
-from mongoengine.errors import DoesNotExist, FieldDoesNotExist, ValidationError
+from motor.errors import DoesNotExist, FieldDoesNotExist, ValidationError
 from pymongo.errors import DuplicateKeyError
 from ..log.logger import Logger
 
